@@ -13,7 +13,7 @@ body .primary-color {
   color: #1b3aa1;
 }
 
-body .row {
+body .row:last-child {
   padding-bottom: 30px;
 }
 
@@ -123,7 +123,7 @@ body header .header-text > span {
 
 body .adv {
   position: relative;
-  background: url("..//img/adv.jpg") center center no-repeat;
+  background: url("../img/adv.jpg") center center no-repeat;
   background-size: cover;
   min-height: 350px;
 }
@@ -174,31 +174,58 @@ body .reviews {
   background-repeat: no-repeat;
 }
 
+body .popgoods .row {
+  padding-bottom: 30px;
+}
+
+body .popgoods .row:first-child {
+  padding-bottom: 0;
+}
+
 body .popcat {
   /*Популярные категории*/
 }
 
-body .popcat p.popCatText {
-  /* display: none; */
-  font-weight: bold;
-  color: #FFFFFF;
-  position: absolute;
-  font-size: 1rem;
-  top: 40%;
-  left: 10%;
-  right: 10%;
+body .popcat a.linkPopCat {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
 }
 
 body .popcat a.linkPopCat img {
-  -webkit-filter: brightness(30%);
-          filter: brightness(30%);
-  -webkit-transition: .3s ease-in-out;
-  transition: .3s ease-in-out;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+body .popcat a.linkPopCat p {
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+  color: #212121;
+  text-shadow: 0 0 3px #BBDEFB;
+  position: absolute;
+  font-size: 1.2rem;
+  z-index: 100;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 body .popcat a.linkPopCat:hover img {
-  -webkit-filter: brightness(60%);
-          filter: brightness(60%);
+  background: #BBDEFB;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+body .popcat a.linkPopCat:hover p {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
 }
 
 body .title {
@@ -305,10 +332,6 @@ body .reviews {
   min-height: 450px;
 }
 
-body .reviews .row {
-  padding-bottom: 0;
-}
-
 body .reviews .carousel-control-prev-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%231b3aa1' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
 }
@@ -322,7 +345,7 @@ body footer {
   color: black;
 }
 
-body footer .row {
+body footer .row:first-child {
   padding-bottom: 0;
 }
 

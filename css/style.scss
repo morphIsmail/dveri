@@ -17,13 +17,14 @@ body {
 
 	.container {
 		padding: 0;
+
 	}
 
 	.primary-color {
 		color: $primary-color;
 	}
 
-	.row {
+	.row:last-child {
 		padding-bottom: 30px;
 	}
 
@@ -153,15 +154,16 @@ body {
 		img {
 			margin-bottom: 15px;
 			transition: .5s;
+
 			&:hover {
-			-webkit-transform: scale(1.2);
-			-ms-transform: scale(1.2);
-			transform: scale(1.2);
+				-webkit-transform: scale(1.2);
+				-ms-transform: scale(1.2);
+				transform: scale(1.2);
 			}
 		}
 
 		position: relative;
-		background: url('..//img/adv.jpg') center center no-repeat;
+		background: url('../img/adv.jpg') center center no-repeat;
 		background-size: cover;
 		min-height: 350px;
 
@@ -188,29 +190,49 @@ body {
 		background-repeat: no-repeat;
 	}
 
+	.popgoods {
+		.row {
+			padding-bottom: 30px;
+		}
+
+		.row:first-child {
+			padding-bottom: 0;
+		}
+	}
+
 	.popcat {
 
 		/*Популярные категории*/
-		p.popCatText {
-			/* display: none; */
-			font-weight: bold;
-			color: $primary-color-text;
-			position: absolute;
-			font-size: 1rem;
-			top: 40%;
-			left: 10%;
-			right: 10%;
-		}
-
 		a.linkPopCat {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			text-decoration: none;
+
 			img {
-				filter: brightness(30%);
-				transition: .3s ease-in-out;
+				transition: 1s;
+			}
+
+			p {
+				padding: 0;
+				margin: 0;
+				font-weight: bold;
+				color: $primary-text-color;
+				text-shadow: 0 0 3px $primary-color-light;
+				position: absolute;
+				font-size: 1.2rem;
+				z-index: 100;
+				transition: 1s;
 			}
 
 			&:hover {
 				img {
-					filter: brightness(60%);
+					background: $primary-color-light;
+					transform: scale(1.1);
+				}
+
+				p {
+					transform: scale(0.9);
 				}
 			}
 		}
@@ -278,10 +300,11 @@ body {
 		img {
 			margin-bottom: 15px;
 			transition: .5s;
+
 			&:hover {
-			-webkit-transform: scale(1.2);
-			-ms-transform: scale(1.2);
-			transform: scale(1.2);
+				-webkit-transform: scale(1.2);
+				-ms-transform: scale(1.2);
+				transform: scale(1.2);
 			}
 		}
 
@@ -320,10 +343,6 @@ body {
 		// Отзывы
 		min-height: 450px;
 
-		.row {
-			padding-bottom: 0;
-		}
-
 		.carousel-control-prev-icon {
 			background-image: url($prev-icon) !important;
 		}
@@ -338,7 +357,7 @@ body {
 		border: 1px solid $primary-text-color;
 		color: black;
 
-		.row {
+		.row:first-child {
 			padding-bottom: 0;
 		}
 
