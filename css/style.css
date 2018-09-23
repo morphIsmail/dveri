@@ -262,6 +262,13 @@ body .form_zamer p.sm-text {
 
 body .form_zamer img {
   margin-bottom: 15px;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+body .form_zamer img:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 body .form_zamer input {
