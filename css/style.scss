@@ -152,7 +152,7 @@ body {
 
 		img {
 			margin-bottom: 15px;
-
+			transition: .5s;
 			&:hover {
 			-webkit-transform: scale(1.2);
 			-ms-transform: scale(1.2);

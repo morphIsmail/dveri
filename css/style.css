@@ -142,6 +142,8 @@ body .adv p.sm-text {
 
 body .adv img {
   margin-bottom: 15px;
+  -webkit-transition: .5s;
+  transition: .5s;
 }
 
 body .adv img:hover {
