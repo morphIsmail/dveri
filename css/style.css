@@ -1,6 +1,6 @@
 @charset "UTF-8";
 body {
-  /*Основыне*/
+  /*Основные*/
   background-color: #EEEEEE;
   color: #777777;
 }
@@ -142,6 +142,11 @@ body .adv p.sm-text {
 
 body .adv img {
   margin-bottom: 15px;
+}
+
+body .adv img:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 body .adv:before {

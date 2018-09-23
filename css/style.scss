@@ -152,6 +152,12 @@ body {
 
 		img {
 			margin-bottom: 15px;
+
+			&:hover {
+			-webkit-transform: scale(1.2);
+			-ms-transform: scale(1.2);
+			transform: scale(1.2);
+			}
 		}
 
 		position: relative;
