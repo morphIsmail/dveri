@@ -17,6 +17,7 @@ body {
 	input {
 		border-radius: 5px;
 	}
+
 	.container {
 		padding: 0;
 
@@ -113,7 +114,7 @@ body {
 			border: double 10px $primary-color-text;
 
 			div {
-				background: $primary-color-text;
+				background: rgba(255, 255, 255, 0.95);
 				padding: 20px;
 			}
 
@@ -404,6 +405,21 @@ body {
 
 		.carousel-control-next-icon {
 			background-image: url($next-icon) !important;
+		}
+	}
+	@media (max-width: 1000px) and (min-width: 768px) {
+		.reviews {
+			.row {
+				.col-sm-9 {
+					padding: 5px;
+				}
+			}
+			h5 {
+				font-size: 14px;
+			}
+			p {
+				font-size: 12px;
+			}
 		}
 	}
 
