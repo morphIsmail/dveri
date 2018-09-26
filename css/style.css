@@ -195,22 +195,15 @@ body .popgoods .row:first-child {
   body .popgoods .row div {
     margin-bottom: 15px;
   }
-  body .form_zamer h5 {
-    padding-left: 60px;
-  }
-  body .form_zamer .sm-text {
-    padding-left: 60px;
-  }
-  body .form_zamer form {
-    padding-bottom: 25px;
+  body .form_zamer .row div {
+    margin: 0 auto;
+    width: 80%;
   }
   body .form_zamer form input {
-    max-height: 30px;
-    max-width: 500px;
-    margin-left: -100px;
+    border-radius: 5px;
   }
   body .form_zamer form button {
-    margin-left: -450px;
+    margin-bottom: 15px;
   }
 }
 
