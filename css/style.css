@@ -5,6 +5,10 @@ body {
   color: #777777;
 }
 
+body input {
+  border-radius: 5px;
+}
+
 body .container {
   padding: 0;
 }
@@ -34,6 +38,7 @@ body .btn {
   background: transparent;
   color: #1b3aa1;
   border-radius: 0px;
+  border-radius: 5px;
 }
 
 body .btn:hover {
@@ -110,6 +115,25 @@ body header .recall span {
 body header .recall input {
   width: 100%;
   padding: 10px;
+  color: #1b3aa1;
+  background: transparent;
+  border: 2px solid #1b3aa1;
+}
+
+body header .recall input::-webkit-input-placeholder {
+  color: #1b3aa1;
+}
+
+body header .recall input::-moz-placeholder {
+  color: #1b3aa1;
+}
+
+body header .recall input:-moz-placeholder {
+  color: #1b3aa1;
+}
+
+body header .recall input:-ms-input-placeholder {
+  color: #1b3aa1;
 }
 
 body header .header-text {
@@ -198,9 +222,6 @@ body .popgoods .row:first-child {
   body .form_zamer .row div {
     margin: 0 auto;
     width: 80%;
-  }
-  body .form_zamer form input {
-    border-radius: 5px;
   }
   body .form_zamer form button {
     margin-bottom: 15px;

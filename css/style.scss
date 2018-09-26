@@ -14,7 +14,9 @@ body {
 	/*Основные*/
 	background-color: $divider-color;
 	color: $secondary-text-color;
-
+	input {
+		border-radius: 5px;
+	}
 	.container {
 		padding: 0;
 
@@ -45,7 +47,7 @@ body {
 		background: transparent;
 		color: $primary-color;
 		border-radius: 0px;
-
+		border-radius: 5px;
 		&:hover {
 			background: $primary-color;
 			color: $primary-color-text;
@@ -58,7 +60,6 @@ body {
 		background: $primary-color;
 		color: $primary-color-text;
 		border-radius: 0px;
-
 		&:hover {
 			opacity: .8;
 		}
@@ -125,6 +126,25 @@ body {
 			input {
 				width: 100%;
 				padding: 10px;
+				color: $primary-color;
+				background: transparent;
+				border: 2px solid $primary-color;
+			}
+	
+			input::-webkit-input-placeholder {
+				color: $primary-color;
+			}
+	
+			input::-moz-placeholder {
+				color: $primary-color;
+			}
+	
+			input:-moz-placeholder {
+				color: $primary-color;
+			}
+	
+			input:-ms-input-placeholder {
+				color: $primary-color;
 			}
 		}
 
@@ -228,9 +248,6 @@ body {
 				}
 			}
 			form {
-				input {
-					border-radius: 5px;
-				}
 				button {
 					margin-bottom: 15px;
 				}
