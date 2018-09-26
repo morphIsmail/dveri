@@ -182,9 +182,40 @@ body .popgoods .row:first-child {
   padding-bottom: 0;
 }
 
+@media (max-width: 992px) {
+  body .popgoods .row {
+    padding-bottom: 0px;
+  }
+  body .popgoods .row .title {
+    margin: 0;
+  }
+  body .popgoods .row h4 {
+    margin: 30px 0;
+  }
+  body .popgoods .row div {
+    margin-bottom: 15px;
+  }
+  body .form_zamer h5 {
+    padding-left: 60px;
+  }
+  body .form_zamer .sm-text {
+    padding-left: 60px;
+  }
+  body .form_zamer form {
+    padding-bottom: 25px;
+  }
+  body .form_zamer form input {
+    max-height: 30px;
+    max-width: 500px;
+    margin-left: -100px;
+  }
+  body .form_zamer form button {
+    margin-left: -450px;
+  }
+}
+
 body .popcat {
   /*Популярные категории*/
-  /* Почему здесь ничего нет????? */
 }
 
 body .popcat a.linkPopCat {
