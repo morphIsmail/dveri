@@ -11,6 +11,9 @@ $prev-icon: "data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/200
 $next-icon: "data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23#{$pr-color}' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E";
 
 body {
+
+	font-family: 'Roboto', sans-serif;
+	
 	/*Основные*/
 	background-color: $divider-color;
 	color: $secondary-text-color;
@@ -210,7 +213,10 @@ body {
 		background-position: center;
 		background-repeat: no-repeat;
 	}
-
+	// для популярных товаров
+	.img-thumbnail {
+		border: 2px solid #BBC;
+	}
 	.popgoods {
 		.row {
 			padding-bottom: 30px;
@@ -274,7 +280,7 @@ body {
 				margin: 0;
 				font-weight: bold;
 				color: $primary-text-color;
-				text-shadow: 0 0 3px $primary-color-light;
+				text-shadow: 0 0 3px $primary-color-text;
 				position: absolute;
 				font-size: 1.2rem;
 				z-index: 100;

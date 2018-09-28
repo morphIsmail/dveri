@@ -1,5 +1,6 @@
 @charset "UTF-8";
 body {
+  font-family: 'Roboto', sans-serif;
   /*Основные*/
   background-color: #EEEEEE;
   color: #777777;
@@ -198,6 +199,10 @@ body .reviews {
   background-repeat: no-repeat;
 }
 
+body .img-thumbnail {
+  border: 2px solid #BBC;
+}
+
 body .popgoods .row {
   padding-bottom: 30px;
 }
@@ -255,7 +260,7 @@ body .popcat a.linkPopCat p {
   margin: 0;
   font-weight: bold;
   color: #212121;
-  text-shadow: 0 0 3px #BBDEFB;
+  text-shadow: 0 0 3px #FFFFFF;
   position: absolute;
   font-size: 1.2rem;
   z-index: 100;
