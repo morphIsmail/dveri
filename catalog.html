@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Каталог</title>
+</head>
+
+<body>
+	<!-- Меню -->
+	<div class="menu">
+		<div class="container">
+			<div class="row">
+				<div class="logo">
+					<a href="index.html">
+						<img src="img/logo.png" alt="логотип">
+					</a>
+				</div>
+				<ul>
+					<li><a href="index.html">Главная</a></li>
+					<li><a href="about.html">О компании</a></li>
+					<li><a href="catalog.html">Каталог</a></li>
+					<li><a href="order.html">На заказ</a></li>
+					<li><a href="portfolio.html">Наши работы</a></li>
+					<li><a href="contacts.html">Контакты</a></li>
+				</ul>
+				<div class="phone">
+					<a href="tel:+79186687673">&#9742; +7 (918) 668-76-73</a>
+				</div>
+			</div>
+		</div>
+	</div>
+  <!-- Каталог -->
+	<div class="popular" style="background-image: url(img/background.jpg)">
+		<div class="container">
+			<div class="row popular-title">
+				<h2>Каталог</h2>
+			</div>
+			<div class="category-controll text-center">
+				<button class="btn" type="button" data-filter="all">Все</button>
+				<button class="btn" type="button" data-filter=".category1">Глухие</button>
+				<button class="btn" type="button" data-filter=".category2">Со стеклом</button>
+				<button class="btn" type="button" data-filter=".category3">Увеличенного формата</button>
+				<button class="btn" type="button" data-sort="order:asc">По возрастанию</button>
+				<button class="btn" type="button" data-sort="order:descending">По убыванию</button>
+			</div>
+			<div class="row popular-goods catalog">
+				<div class="col-3 col-lg-6 col-sm-12 product mix category1" data-order="58000">
+					<img src="img/сatalog/door_anglia.png" alt="Название">
+					<h3>Название</h3>
+					<div>58000 &#8381;</div>
+					<a href="door.html" class="btn">Подробнее</a>
+				</div>
+				<div class="col-3 col-lg-6 col-sm-12 product mix category2" data-order="71000">
+					<img src="img/сatalog/door_anglia.png" alt="Название">
+					<h3>Название</h3>
+					<div>71000 &#8381;</div>
+					<a href="door.html" class="btn">Подробнее</a>
+				</div>
+				<div class="col-3 col-lg-6 col-sm-12 product mix category3" data-order="62000">
+					<img src="img/сatalog/door_anglia.png" alt="Название">
+					<h3>Название</h3>
+					<div>62000 &#8381;</div>
+					<a href="door.html" class="btn">Подробнее</a>
+				</div>
+				<div class="col-3 col-lg-6 col-sm-12 product mix category2" data-order="57000">
+					<img src="img/сatalog/door_anglia.png" alt="Название">
+					<h3>Название</h3>
+					<div>57000 &#8381;</div>
+					<a href="door.html" class="btn">Подробнее</a>
+				</div>
+				<div class="col-3 col-lg-6 col-sm-12 product mix category2" data-order="45000">
+					<img src="img/сatalog/door_anglia.png" alt="Название">
+					<h3>Название</h3>
+					<div>45000 &#8381;</div>
+					<a href="door.html" class="btn">Подробнее</a>
+				</div>
+				<div class="col-3 col-lg-6 col-sm-12 product mix category3" data-order="84000">
+					<img src="img/сatalog/door_anglia.png" alt="Название">
+					<h3>Название</h3>
+					<div>84000 &#8381;</div>
+					<a href="door.html" class="btn">Подробнее</a>
+				</div>
+				<div class="col-3 col-lg-6 col-sm-12 product mix category1" data-order="102000">
+					<img src="img/сatalog/door_anglia.png" alt="Название">
+					<h3>Название</h3>
+					<div>102000 &#8381;</div>
+					<a href="door.html" class="btn">Подробнее</a>
+				</div>
+				<div class="col-3 col-lg-6 col-sm-12 product mix category2" data-order="96000">
+					<img src="img/сatalog/door_anglia.png" alt="Название">
+					<h3>Название</h3>
+					<div>96000 &#8381;</div>
+					<a href="door.html" class="btn">Подробнее</a>
+				</div>
+			</div>
+			<nav class="navigation pagination" role="navigation">
+				<div class="nav-links"><span aria-current="page" class="page-numbers current">1</span>
+				<a class="page-numbers" href="">2</a>
+				<a class="next page-numbers" href="">Далее</a></div>
+			</nav>
+		</div>
+	</div>
+  <!-- Футер -->
+	<div class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 text-center">
+					<a href="policy.html">Политика конфиденциальности</a> <span class="accent-color">&copy; </span> Двери Жовнер, 2021
+				</div>
+			</div>
+		</div>
+	</div>
+
+  <script src="js/mixitup.min.js"></script>
+  <script>
+    // Документация
+    // https://www.kunkalabs.com/mixitup/docs/get-started/
+    // Инициализация
+    let mixer = mixitup('.popular-goods');
+  </script>
+</body>
+
+</html>

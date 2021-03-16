@@ -3,330 +3,234 @@
 
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
 	<link rel="stylesheet" href="css/style.css">
 	<title>Главная</title>
 </head>
 
 <body>
 	<!-- Меню -->
-	<div class="container">
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
-			<a class="navbar-brand" href="#">
-				<img src="img/logo.png" height="50" alt="">
-			</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-			 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav mr-auto">
-					<li class="nav-item active">
-						<a class="nav-link text-uppercase" href="#">Главная</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link text-uppercase" href="#">О компании</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link text-uppercase" href="#">Наши работы</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link text-uppercase" href="#">Каталог</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link text-uppercase" href="#">Контакты</a>
-					</li>
+	<div class="menu">
+		<div class="container">
+			<div class="row">
+				<div class="logo">
+					<a href="index.html">
+						<img src="img/logo.png" alt="логотип">
+					</a>
+				</div>
+				<ul>
+					<li><a href="index.html">Главная</a></li>
+					<li><a href="about.html">О компании</a></li>
+					<li><a href="catalog.html">Каталог</a></li>
+					<li><a href="order.html">На заказ</a></li>
+					<li><a href="portfolio.html">Наши работы</a></li>
+					<li><a href="contacts.html">Контакты</a></li>
 				</ul>
-				<span class="number-phone">+7(86131)477-79</span>
-			</div>
-		</nav>
-	</div>
-	<!-- Хэдер -->
-	<div class="container">
-		<header>
-			<div class="row justify-content-center">
-				<div class="col-md-6 align-self-center">
-					<h4 class="header-text text-uppercase">
-						Стальные изделия <span>«ZHOVNER»</span>
-						ОТ ПРЕДПРИЯТИЯ <span>«ВСЁ ИЗ МЕТАЛЛА»</span>
-					</h4>
-					<p class="">&nbsp При производстве применяется уникальная методика антикоррозийной обработки. Изделие подвергается 
-						химическому воздействию, после чего производится пескоструйная обработка поверхностей и труднодоступных 
-						элементов деталей конструкции. Двери служат долго, при этом не теряя внешнего вида.
-						Все работы производятся специально обученными и квалифицированными мастерами, специализирующихся на конкретных 
-						процессах производства дверей "ЖОВНЕР"</p>
+				<div class="phone">
+					<a href="tel:+79186687673">&#9742; +7 (918) 668-76-73</a>
 				</div>
-				<div class="col-md-4 text-center align-self-center">
-					<form action="" class="recall">
-						<div>
-							<span class="text-uppercase">Оставьте заявку прямо сейчас</span>
-							<br>
-							<br>
-							<input type="text" placeholder="ИМЯ">
-							<br>
-							<br>
-							<input type="text" placeholder="ТЕЛЕФОН">
-							<br>
-							<br>
-							<button class="btn text-uppercase">Отправить</button>
+			</div>
+		</div>
+	</div>
+	<!-- Шапка -->
+	<div class="header" style="background-image: url(img/header.png)">
+		<div class="container">
+			<div class="row">
+				<div class="col-6 col-lg-12">
+					<div class="header-inner">
+						<div class="header-catalog">
+							<h2>Каталог</h2>
+							<div class="doors">
+								<div class="door">
+									<div class="name" style="background-image: url(img/door1.jpg)">Модели глухие</div>
+								</div>
+								<div class="door">
+									<div class="name" style="background-image: url(img/door2.jpg)">Модели со стеклом</div>
+								</div>
+								<div class="door">
+									<div class="name" style="background-image: url(img/door3.jpg)">Увеличенного формата</div>
+								</div>
+							</div>
+							<a class="btn" href="catalog.html">Смотреть</a>
 						</div>
-					</form>
-				</div>
-			</div>
-		</header>
-	</div>
-	<!-- Популярные категории -->
-	<div class="container popcat">
-		<div class="row">
-			<div class="col text-center text-uppercase">
-				<div class="title">
-					<h4 class="heading-h4">Популярные категории</h4>
+						<div class="header-order">
+							<h2>На заказ</h2>
+							<div class="doors">
+								<div class="door">
+									<div class="name" style="background-image: url(img/door1.png)">Ворота</div>
+								</div>
+								<div class="door">
+									<div class="name" style="background-image: url(img/door2.png)">Заборы и ограждения</div>
+								</div>
+								<div class="door">
+									<div class="name" style="background-image: url(img/door3.png)">Навесы</div>
+								</div>
+							</div>
+							<a class="btn" href="order.html">Смотреть</a>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
-		<div class="row justify-content-center">
-			<div class="col-md-3">
-				<a href="#1" class="linkPopCat">
-					<p class="text-uppercase">Глухие</p>
-					<img src="img/door1.png" class="img-thumbnail img-fluid" alt="">
-				</a>
-			</div>
-			<div class="col-md-3">
-				<a href="#2" class="linkPopCat">
-					<p class="text-uppercase">Со стеклом</p>
-					<img src="img/door2.png" class="img-thumbnail img-fluid" alt="">
-				</a>
-			</div>
-			<div class="col-md-3">
-				<a href="#3" class="linkPopCat">
-					<p class="text-uppercase">На заказ</p>
-					<img src="img/door3.png" class="img-thumbnail img-fluid" alt="">
-				</a>
+	</div>
+	<!-- Преимущества  -->
+	<div class="advantages" style="background-image: url(img/bg-advantages.png)">
+		<div class="container">
+			<h2>НАШИ ПРЕИМУЩЕСТВА</h2>
+		</div>
+	</div>
+	<div class="advantages-cards" style="background-image: url(img/background.jpg)">
+		<div class="container">
+			<div class="row advantages-cards-inner">
+				<div class="col-4 col-lg-6 col-sm-12 advantages-card">
+					<img src="img/icons/like.png" alt="">
+					<h3>СТИЛЬНЫЙ ВНЕШНИЙ ВИД</h3>
+					<p>Эксклюзивность, изысканность, долговечность и надежность - это основные достоинства наших изделий.</p>
+				</div>
+				<div class="col-4 col-lg-6 col-sm-12 advantages-card">
+					<img src="img/icons/quality.png" alt="">
+					<h3>КАЧЕСТВО ОТДЕЛКИ</h3>
+					<p>Технологический процесс, применяемый в производстве, по праву можно назвать безупречным и на сегодняшний день не имеющий аналогов на других предприятиях.</p>
+				</div>	
+				<div class="col-4 col-lg-6 col-sm-12 advantages-card">
+					<img src="img/icons/list.png" alt="">
+					<h3>АССОРТИМЕНТ</h3>
+					<p>Производство имеет возможность выпуска достаточно широкого списка продукции В нём вы найдёте эксклюзивные двери, надежные ворота, экстерьерные ограждения, современные навесы и прочие</p>
+				</div>	
+				<div class="col-4 col-lg-6 col-sm-12 advantages-card">
+					<img src="img/icons/gears.png" alt="">
+					<h3>КАЧЕСТВО СБОРКИ</h3>
+					<p>Вся продукция имеет явное преимущество в качестве сборки за счет индивидуального, а не поточного стиля организации производственного процесса. Все детали изделий проходят химическую и пескоструйную обработку.</p>
+				</div>	
+				<div class="col-4 col-lg-6 col-sm-12 advantages-card">
+					<img src="img/icons/home.png" alt="">
+					<h3>СРОК СЛУЖБЫ</h3>
+					<p>Безупречное качество отделки и высокое качество сборки могут с достоинством заявлять о длительном сроке эксплуатации наших изделий в любом регионе нашей страны.</p>
+				</div>	
+				<div class="col-4 col-lg-6 col-sm-12 advantages-card">
+					<img src="img/icons/handshake.png" alt="">
+					<h3>ИНФОРМАЦИЯ ПАРТНЕРАМ</h3>
+					<p>Для приобретения нашего товара с целью дальнейшей реализации мы предоставляем дилерам специальные условия и цены. Мы всегда открыты к диалогу и взаимовыгодному сотрудничеству.</p>
+				</div>		
 			</div>
 		</div>
 	</div>
-	<!-- Приимущества -->
-	<div class="container adv text-white text-center">
-		<div class="row justify-content-center">
-			<div class="col-md-5 col-lg-2 grow">
-				<img src="img/img_3.png" class="img-fluid" alt="">
-				<h6 class="text-uppercase">Срок службы</h6>
-				<p class="sm-text">Безупречное качество отделки и высокое качество сборки могут с достоинством заявить о длительном
-					сроке эксплуатации наших изделий в любом регионе нашей страны.</p>
-			</div>
-			<div class="col-md-5 col-lg-2 grow">
-				<img src="img/img_4.png" class="img-fluid" alt="">
-				<h6 class="text-uppercase">Качество сборки</h6>
-				<p class="sm-text">Вся продукция имеет явное преимущество в качестве сборки за счет индивидуального, а не поточного
-					стиля организации производственного процесса. Все детали изделий проходят химическую и пескоструйную обработку.</p>
-			</div>
-			<div class="col-md-5 col-lg-2 grow">
-				<img src="img/img_5.png" class="img-fluid" alt="">
-				<h6 class="text-uppercase">Ассортимент</h6>
-				<p class="sm-text">Производство имеет возможность выпуска достаточно широкого списка продукции. В нём вы найдете
-					эксклюзивные двери, надёжные ворота, экстерьерные ограждения, современные навесы и многое другое.</p>
-			</div>
-			<div class="col-md-5 col-lg-2 grow">
-				<img src="img/img_6.png" class="img-fluid" alt="">
-				<h6 class="text-uppercase">Внешний вид</h6>
-				<p class="sm-text">Эксклюзивность, изысканность, долговечность, надежность и современный внешний вид - это основные
-					достоинства наших изделий.</p>
+	<!-- О нас -->
+	<div class="about" style="background-image: url(img/bg-about.jpg)">
+		<div class="container">
+			<div class="row about-inner">
+				<div class="col-6 col-lg-12">
+					<h2>ZHOVNER – ЭТО ВЫСОКОКАЧЕСТВЕННЫЙ ПРОДУКТ, <span>ПРОИЗВОДЯЩИЙСЯ В РОССИИ.</span></h2>
+					<p>Двери ZHOVNER избавят вас от тревоги за сохранность Вашей собственности. Залог качества и надежности - отечественное производство. Наше предприятие находится в городе Крымск Краснодарского края.</p>
+				</div>
+				<div class="col-6 col-lg-12 text-center">
+					<a href="catalog.html" class="btn">Перейти в каталог</a>
+				</div>
 			</div>
 		</div>
 	</div>
 	<!-- Популярные товары -->
-	<div class="container popgoods">
-		<div class="row">
-			<div class="col text-center text-uppercase">
-				<div class="title">
-					<h4 class="heading-h4">Популярные товары</h4>
+	<div class="popular" style="background-image: url(img/background.jpg)">
+		<div class="container">
+			<div class="row popular-title">
+				<h2>ПОПУЛЯРНЫЕ ТОВАРЫ</h2>
+			</div>
+			<div class="row popular-goods">
+				<div class="col-3 col-lg-6 col-sm-12 product">
+					<img src="img/сatalog/door_anglia.png" alt="Название">
+					<h3>Название</h3>
+					<div>45000 &#8381;</div>
+					<a href="door.html" class="btn">Подробнее</a>
+				</div>
+				<div class="col-3 col-lg-6 col-sm-12 product">
+					<img src="img/сatalog/door_anglia.png" alt="Название">
+					<h3>Название</h3>
+					<div>45000 &#8381;</div>
+					<a href="door.html" class="btn">Подробнее</a>
+				</div>
+				<div class="col-3 col-lg-6 col-sm-12 product">
+					<img src="img/сatalog/door_anglia.png" alt="Название">
+					<h3>Название</h3>
+					<div>45000 &#8381;</div>
+					<a href="door.html" class="btn">Подробнее</a>
+				</div>
+				<div class="col-3 col-lg-6 col-sm-12 product">
+					<img src="img/сatalog/door_anglia.png" alt="Название">
+					<h3>Название</h3>
+					<div>45000 &#8381;</div>
+					<a href="door.html" class="btn">Подробнее</a>
+				</div>
+				<div class="col-3 col-lg-6 col-sm-12 product">
+					<img src="img/сatalog/door_anglia.png" alt="Название">
+					<h3>Название</h3>
+					<div>45000 &#8381;</div>
+					<a href="door.html" class="btn">Подробнее</a>
+				</div>
+				<div class="col-3 col-lg-6 col-sm-12 product">
+					<img src="img/сatalog/door_anglia.png" alt="Название">
+					<h3>Название</h3>
+					<div>45000 &#8381;</div>
+					<a href="door.html" class="btn">Подробнее</a>
+				</div>
+				<div class="col-3 col-lg-6 col-sm-12 product">
+					<img src="img/сatalog/door_anglia.png" alt="Название">
+					<h3>Название</h3>
+					<div>45000 &#8381;</div>
+					<a href="door.html" class="btn">Подробнее</a>
+				</div>
+				<div class="col-3 col-lg-6 col-sm-12 product">
+					<img src="img/сatalog/door_anglia.png" alt="Название">
+					<h3>Название</h3>
+					<div>45000 &#8381;</div>
+					<a href="door.html" class="btn">Подробнее</a>
 				</div>
 			</div>
-		</div>
-		<div class="row text-center justify-content-center">
-			<div class="col-md-5 col-lg-2">
-				<img src="img/catalog/door_riviera.png" class="img-thumbnail img-fluid" alt="">
-				<h6 class="text-uppercase text-bold">Ривьера</h6>
-				<p>55000 Р</p>
-				<button class="btn text-uppercase">Подробнее</button>
-			</div>
-			<div class="col-md-5 col-lg-2">
-				<img src="img/catalog/door_vostok.png" class="img-thumbnail img-fluid" alt="">
-				<h6 class="text-uppercase text-bold">Восток</h6>
-				<p>81600 Р</p>
-				<button class="btn text-uppercase">Подробнее</button>
-			</div>
-			<div class="col-md-5 col-lg-2">
-				<img src="img/catalog/door_kamelot.png" class="img-thumbnail img-fluid" alt="">
-				<h6 class="text-uppercase text-bold">Камелот</h6>
-				<p>69200 Р</p>
-				<button class="btn text-uppercase">Подробнее</button>
-			</div>
-			<div class="col-md-5 col-lg-2">
-				<img src="img/catalog/door_francia.png" class="img-thumbnail img-fluid" alt="">
-				<h6 class="text-uppercase text-bold">Франция</h6>
-				<p>72600 Р</p>
-				<button class="btn text-uppercase">Подробнее</button>
-			</div>
-		</div>
-		<div class="row text-center justify-content-center">
-			<div class="col-md-5 col-lg-2">
-				<img src="img/catalog/door_imperial.png" class="img-thumbnail img-fluid" alt="">
-				<h6 class="text-uppercase text-bold">Империал</h6>
-				<p>83700 Р</p>
-				<button class="btn text-uppercase">Подробнее</button>
-			</div>
-			<div class="col-md-5 col-lg-2">
-				<img src="img/catalog/door_anglia.png" class="img-thumbnail img-fluid" alt="">
-				<h6 class="text-uppercase text-bold">Англия</h6>
-				<p>65700 Р</p>
-				<button class="btn text-uppercase">Подробнее</button>
-			</div>
-			<div class="col-md-5 col-lg-2">
-				<img src="img/catalog/door_parij.png" class="img-thumbnail img-fluid" alt="">
-				<h6 class="text-uppercase text-bold">Париж</h6>
-				<p>86100 Р</p>
-				<button class="btn text-uppercase">Подробнее</button>
-			</div>
-			<div class="col-md-5 col-lg-2">
-				<img src="img/catalog/door_venecia.png" class="img-thumbnail img-fluid" alt="">
-				<h6 class="text-uppercase text-bold">Венеция</h6>
-				<p>64700 Р</p>
-				<button class="btn text-uppercase">Подробнее</button>
-			</div>
-		</div>
-		<div class="row text-center justify-content-center">
-			<div class="col">
-				<button class="btn-lg btn-inverse text-uppercase">Перейти в каталог</button>
+			<div class="row">
+				<div class="col-12 text-center">
+					<a href="catalog.html" class="btn">Перейти в каталог</a>
+				</div>
 			</div>
 		</div>
 	</div>
-	<!-- Закажите замер -->
-	<div class="container form_zamer text-white">
-		<div class="row text-center justify-content-center">
-			<div class="col-md-12 col-lg-3 align-self-center text-left">
-				<div>
-					<h5 class="text-uppercase">Закажите замер</h5>
-					<p class="sm-text">Наши специалисты подберут необходимые параметры</p>
+	<!-- Форма обратной связи -->
+	<div class="contacts" style="background-image: url(img/bg-contacts.png)">
+		<div class="container">
+			<div class="row">
+				<div class="col-4 col-lg-12 contacts-item">
+					<h3>Закажите звонок специалиста</h3>
+					<p>Вы можете заказать звонок нашего специалиста в удобное для Вас время.</p>
+					<form action="">
+						<input type="text" placeholder="Имя">
+						<input type="text" placeholder="Телефон">
+						<input type="text" placeholder="Когда позвонить?">
+						<button class="btn">Заказать звонок</button>
+					</form>
 				</div>
-				<form action="" class="text-center">
-					<div>
-						<input type="text" placeholder="ИМЯ">
-						<br>
-						<br>
-						<input type="text" placeholder="АДРЕС">
-						<br>
-						<br>
-						<input type="text" placeholder="ТЕЛФОН">
-						<br>
-						<br>
-						<button class="btn text-uppercase">Заказать замер</button>
-					</div>
-				</form>
-			</div>
-			<div class="col-md-5 col-lg-3 align-self-center">
-				<img src="img/img_1.png" class="img-fluid" alt="">
-				<h6 class="text-uppercase">Выгодно</h6>
-				<p>Заказав замер сегодня, Вы получаете скидку 10% на установку двери</p>
-			</div>
-			<div class="col-md-5 col-lg-3 align-self-center">
-				<img src="img/img_2.png" class="img-fluid" alt="">
-				<h6 class="text-uppercase">Быстро</h6>
-				<p>При заказе замера в первой половине дня, специалисты приедут уже после обеда</p>
-			</div>
-		</div>
-	</div>
-	<!-- Отзывы -->
-	<div class="container reviews">
-		<div class="row">
-			<div class="col text-center text-uppercase">
-				<div class="title">
-					<h4 class="heading-h4">Отзывы</h4>
+				<div class="col-4 col-lg-6 col-sm-12 text-center contacts-item">
+					<img src="img/icons/tag.png" alt="Подробно">
+					<h3>Подробно</h3>
+					<p>Наши специалисты помогут Вам в выборе нужной двери.</p>
+				</div>
+				<div class="col-4 col-lg-6 col-sm-12 text-center contacts-item">
+					<img src="img/icons/clock.png" alt="Быстро">
+					<h3>Быстро</h3>
+					<p>Мы стараемся максимально быстро ответить на Ваш запрос.</p>
 				</div>
 			</div>
-		</div>
-		<div id="my-carousel" class="carousel slide" data-ride="carousel">
-			<div class="carousel-inner">
-				<div class="carousel-item active">
-					<div class="row justify-content-center">
-						<div class="col-md-3 col-sm-9 col-9">
-							<div class="card">
-								<div class="card-body">
-									<h5 class="card-title primary-color">Нестандартные глухие и со стеклом</h5>
-									<p class="card-text">Большое количество домов, где из-за инивидуальных особенностей дверных проемов
-										необходимы нестандартные входные двери. Наше производство позволяет изготовить нестандартные 
-										стальные двери на заказ практически любого размера, по высоте и ширине.</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-3 col-sm-9 col-9">
-							<div class="card">
-								<div class="card-body">
-									<h5 class="card-title primary-color">С фрамугами и доп. окнами</h5>
-									<p class="card-text">
-										Фрамуги могут быть со стеклом и глухие. Глухие фрамуги используют в том случае, когда в дверной 
-										проем устанавливается дверь гораздо меньше высоты, или это дизайнерское решение. Остекленные 
-										варианты фрамуг обычно используют, чтобы в коридор попало много света.</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-3 col-sm-9 col-9">
-							<div class="card">
-								<div class="card-body">
-									<h5 class="card-title primary-color">Навесы под заказ</h5>
-									<p class="card-text">Для создания комфортного обитания на придомовой территории в ненастную 
-										погоду или в знойную жару наше предприятие «ВСЕ ИЗ МЕТАЛЛА» обладает возможностью изготовить 
-										и установить качественный и надежный навес в современном стиле. Сделаем по вашим индивидуальным 
-										размерам.</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="carousel-item">
-					<div class="row justify-content-center">
-						<div class="col-md-3 col-sm-9 col-9">
-							<div class="card">
-								<div class="card-body">
-									<h5 class="card-title primary-color">Заборы и ограждения</h5>
-									<p class="card-text">Лицом любого участка всега был забор. Мы предлагаем Вам изготовить качественное, 
-										надежное и подходящее к общему дизайну стильное ограждение. Возможности производства позволяют 
-										выполнить не только предложенные нами варианты, но и разработать модель любой сложности. </p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<a class="carousel-control-prev" href="#my-carousel" data-slide="prev">
-				<span class="carousel-control-prev-icon"></span>
-			</a>
-			<a class="carousel-control-next" href="#my-carousel" data-slide="next">
-				<span class="carousel-control-next-icon"></span>
-			</a>
 		</div>
 	</div>
 	<!-- Футер -->
-	<footer class="container">
-		<div class="row text-center">
-			<div class="col">
-				<menu class="nav justify-content-center">
-					<li class="nav-item"><a href="" class="nav-link active text-uppercase">Главная</a></li>
-					<li class="nav-item"><a href="" class="nav-link text-uppercase">О компании</a></li>
-					<li class="nav-item"><a href="" class="nav-link text-uppercase">Наши работы</a></li>
-					<li class="nav-item"><a href="" class="nav-link text-uppercase">Каталог</a></li>
-					<li class="nav-item"><a href="" class="nav-link text-uppercase">Контакты</a></li>
-				</menu>
-				<p class="text-uppercase">Политика конфиденциальности <span class="primary-color">&copy;</span>
-					Dveri-zhovner.ru</p>
+	<div class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 text-center">
+					<a href="policy.html">Политика конфиденциальности</a> <span class="accent-color">&copy; </span> Двери Жовнер, 2021
+				</div>
 			</div>
 		</div>
-	</footer>
-	<script src="js/jquery-3.3.1.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
+	</div>
 </body>
 
 </html>
